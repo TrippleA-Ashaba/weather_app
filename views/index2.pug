@@ -11,7 +11,7 @@ html(lang="en")
         // MDB
         link(href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css' rel='stylesheet')
 
-        title Current Weather
+        title Index 2
     body 
         section.vh-100
             .container.py-5.h-100
@@ -36,20 +36,20 @@ html(lang="en")
                         //-         label.form-check-label(for='inlineRadio2') Farenheit
                         .card.shadow-0.border
                             .card-body.p-4
-                                h4.mb-1.sfw-normal #{cityName}, #{countryName}
+                                h4.mb-1.sfw-normal New York, US
                                 p.mb-2
                                 | Current temperature: 
-                                strong #{temp}&deg;C
+                                strong 5.42&deg;C
                                 p
                                 | Feels like: 
-                                strong #{feel}&deg;C
+                                strong 4.37&deg;C
                                 p
                                 | Max: 
-                                strong #{max_temp}&deg;C
+                                strong 6.11&deg;C
                                 | , Min: 
-                                strong #{min_temp}&deg;C
+                                strong 3.89&deg;C
                                 .d-flex.flex-row.align-items-center
-                                    p.mb-0.me-4 #{description}
-                                    img(src="http://openweathermap.org/img/wn/"+icon+"@2x.png" alt="" srcset="")
+                                p.mb-0.me-4 Scattered Clouds
+                                i.fas.fa-cloud.fa-3x(style='color: #eee;')
 // MDB
 script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js')
